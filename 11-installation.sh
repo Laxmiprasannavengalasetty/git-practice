@@ -9,12 +9,12 @@ then
     exit 1
 fi
 
-brew list installed git
+dnf list installed git
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ]  # $? it checks previous command is success or failure  -ne = not euall (if it is 0- success 1-126 failure)
 then
     echo "Git is not installed, going to install it.."
-    brew install git -y
+    dnf install git -y
     if [ $? -ne 0 ]
     then
         echo "Git installation is not success...check it"
@@ -26,7 +26,7 @@ else
     echo "Git is already installed, nothing to do.."
 fi
 
-brew list installed mysql
+brewg list installed mysql
 
 if [ $? -ne 0 ]
 then
