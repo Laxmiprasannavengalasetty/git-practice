@@ -17,4 +17,4 @@ NUMBER1=$(($NUMBER1 + $NUMBER2))
 NUMBER2=$(($NUMBER1 - $NUMBER2))
 NUMBER1=$(($NUMBER1 - $NUMBER2))
 
-echo "After swap a=$a and b=$b"
+echo "After swap a=$NUMBER1 and b=$NUMBER2"
