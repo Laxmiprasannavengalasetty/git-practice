@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ];
+# if [ "$#" -ne 2 ];
 
-    then
-    echo "Usage: $0 NUMBER1 NUMBER2"
-    exit 1
-fi
+#     then
+#     echo "Usage: $0 NUMBER1 NUMBER2"
+#     exit 1
+# fi
 
 
 NUMBER1=$1
