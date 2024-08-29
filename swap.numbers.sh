@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ]; # validating numbers
+if [ "$#" -ne 2 ]; # validating numbers if entered 3 so condition is true, so it prints enter two numbers only
 
     then
     echo "Usage: Enter two numbers only: "
