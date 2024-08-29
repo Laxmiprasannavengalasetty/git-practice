@@ -3,7 +3,7 @@
 if [ "$#" -ne 2 ]; # validating numbers
 
     then
-    echo "Usage: only enter 2 numbers"
+    echo "Usage: Enter two numbers only: "
     exit 1
 fi
 
