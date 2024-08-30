@@ -7,7 +7,6 @@ if [ "$#" -ne 2 ]; # validating numbers if entered 3 so condition is true, so it
     exit 1
 fi
 
-
 NUMBER1=$1
 NUMBER2=$2
 
