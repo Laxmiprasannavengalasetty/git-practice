@@ -2,9 +2,8 @@
 
 #Check if the filename argument is provided
 if ["$#" -ne 1];
- 
+then
    echo "Please enter $0 filename"
-   then
    exit 1
 fi
 
