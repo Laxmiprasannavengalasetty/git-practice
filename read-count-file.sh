@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Check if the filename argument is provided
-if ["$#" -ne 1];
+if [ "$#" -ne 1 ];
 then
    echo "Please enter $0 filename"
    exit 1
@@ -9,7 +9,7 @@ fi
 
 # Read the filename from the first argument
 filename=$1
-if [! -f "$filename" ];
+if [ ! -f "$filename" ];
 
    then
    echo " file not found "
@@ -24,4 +24,4 @@ tr -c '[:alnum:]' '[\n*]' | \
 awk 'NF' | \
 sort | \
 uniq -c | \
-sorn -nr
+sort -nr
