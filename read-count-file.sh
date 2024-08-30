@@ -3,7 +3,7 @@
 #Check if the filename argument is provided
 if [ "$#" -ne 1 ];
 then
-   echo "Please enter $0 filename"
+   echo "Please enter file name to search words "
    exit 1
 fi
 
