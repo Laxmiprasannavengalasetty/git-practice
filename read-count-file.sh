@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Check if the filename argument is provided
-if ['$#' -ne 1];
+if ["$#" -ne 1];
  
    echo "Please enter $0 filename"
    then
