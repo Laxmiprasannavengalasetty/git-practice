@@ -1,7 +1,6 @@
 #!/bin/bash
 
-f [ "$#" -ne 1 ]; # validating numbers if entered 3 so condition is true, so it prints enter two numbers only
-
+if [ "$#" -ne 1 ];  # validating numbers if entered 3 so condition is true, so it prints enter two numbers only
     then
     echo "Usage: Enter number : "
     exit 1
