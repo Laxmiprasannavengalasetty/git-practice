@@ -10,10 +10,10 @@ fi
 NUMBER1=$1
 NUMBER2=$2
 
-echo "before swaping a=$NUMBER1 and b=$NUMBER2" 
+echo "before swaping $NUMBER1 and $NUMBER2" 
 
 NUMBER1=$(($NUMBER1 + $NUMBER2))
 NUMBER2=$(($NUMBER1 - $NUMBER2))
 NUMBER1=$(($NUMBER1 - $NUMBER2))
 
-echo "After swap a=$NUMBER1 and b=$NUMBER2"
+echo "After swap $NUMBER1 and $NUMBER2"
