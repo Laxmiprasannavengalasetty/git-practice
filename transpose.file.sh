@@ -42,5 +42,6 @@ END {
     }   
 }
 '  "$file"
+ echo "After transpose file: "  # original file 
   cat "$1" 
 
