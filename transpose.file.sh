@@ -40,5 +40,5 @@ END {
         print str
     }
 }
-'  "$file"
+' echo " orinal content: " "$file"
 
