@@ -31,7 +31,7 @@ awk '
     }
 }
 END {
-       print "Transform of Rows to Column \n:" # Header for transposed data
+       print "Transform of Rows to Column: \n" # Header for transposed data
     for (j=1; j<=max_fields; j++) {
         str = a[1, j]
         for (i=2; i<=NR; i++) {
