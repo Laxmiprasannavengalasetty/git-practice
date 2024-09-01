@@ -30,6 +30,7 @@ awk '
         max_fields = NF
     }
 }
+echo "Transpose content: "
 END {
     # Print transposed data
     for (j=1; j<=max_fields; j++) {
