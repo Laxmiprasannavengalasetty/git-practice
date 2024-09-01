@@ -42,5 +42,5 @@ END {
     }   
 }
 '  "$file"
-echo "$1" 
+echo "$@" 
 
