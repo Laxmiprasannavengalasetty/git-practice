@@ -41,5 +41,6 @@ END {
         print str
     }   
 }
-' 
+'  "$file"
+echo "$1" 
 
