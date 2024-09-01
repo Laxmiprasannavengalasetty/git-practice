@@ -37,7 +37,7 @@ END {
         for (i=2; i<=NR; i++) {
             str = str " " (a[i, j] ? a[i, j] : "")
         }
-        echo "print transposed data :"
+        print "print transposed data :"
         print str
     }   
 }
