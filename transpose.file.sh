@@ -31,12 +31,13 @@ awk '
     }
 }
 END {
-     echo "print transposed data :"   # Header for transposed data
+        # Header for transposed data
     for (j=1; j<=max_fields; j++) {
         str = a[1, j]
         for (i=2; i<=NR; i++) {
             str = str " " (a[i, j] ? a[i, j] : "")
         }
+        echo "print transposed data :"
         print str
     }   
 }
