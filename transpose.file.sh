@@ -8,17 +8,6 @@ fi
 
 file="$1"
 
-# Transpose the file
-#!/bin/bash
-
-# Check if filename is provided as an argument
-if [ $# -ne 1 ]; then
-  echo "Usage: $0 <file>"
-  exit 1
-fi
-
-file="$1"
-
 # Check if the file exists
 if [ ! -f "$file" ]; then
   echo "File not found!"
