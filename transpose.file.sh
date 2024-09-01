@@ -44,5 +44,5 @@ END {
 '  "$file"
 
    echo "Columns to Rows: "  # original file 
-   sed 'G' cat "$1" 
+   cat "$1" 
 
