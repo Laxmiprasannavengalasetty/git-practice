@@ -42,5 +42,5 @@ END {
     }   
 }
 '  "$file"
-echo "cat $1" 
+  cat "$1" 
 
