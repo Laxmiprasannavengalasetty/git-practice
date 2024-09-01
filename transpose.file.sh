@@ -18,8 +18,8 @@ echo "file content:"
 cat "$file"
 echo
 
-# Transpose the file using gawk
-gawk '
+# Transpose the file using awk
+awk '
 {
     # Store each field of the current row in the array `a`
     for (i=1; i<=NF; i++) {
