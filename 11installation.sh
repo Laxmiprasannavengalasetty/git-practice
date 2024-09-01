@@ -10,7 +10,7 @@ if [ $USERID -ne 0 ]
 
 fi
  
- dnf list installed gittt
+ dnf list installed git
 
 if [ $? -ne 0 ] 
   then
