@@ -32,7 +32,7 @@ awk '
 }
 END {
     # Print transposed data
-     print Transposed data:
+      Print Transposed data:
     for (j=1; j<=max_fields; j++) {
         str = a[1, j]
         for (i=2; i<=NR; i++) {
