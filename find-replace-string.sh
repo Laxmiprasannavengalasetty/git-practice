@@ -7,7 +7,7 @@ if [ "$#" -ne 3 ]; then  # 1. directory 2. find string 3. replace string
 fi
 
 directory="$1"
-findh_string="$2"
+find_string="$2"
 replace_string="$3"
 
 if [ ! -d "$directory" ]; then
