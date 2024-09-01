@@ -38,7 +38,7 @@ END {
             str = str " " (a[i, j] ? a[i, j] : "")
         }
         print str
-    }   print "original content: "$1" "
+    }   print "original content: cat "$file" "
 }
 '  "$file"
 
