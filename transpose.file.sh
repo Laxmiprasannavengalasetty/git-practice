@@ -43,6 +43,6 @@ END {
 }
 '  "$file"
 
-   echo "\n Columns to Rows:\n "  # original file 
-   cat "$1" 
+echo "\n Columns to Rows:\n "  # original file 
+cat "$1" 
 
