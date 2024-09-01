@@ -42,7 +42,7 @@ END {
     }   
 }
 '  "$file"
-    sed 'G'
+
    echo "Columns to Rows: "  # original file 
-    cat "$1" 
+   sed 'G' cat "$1" 
 
