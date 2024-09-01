@@ -19,7 +19,7 @@ fi
 # iterate over the all .txt files in that directory
 for file in "$directory"/*.txt;
  do
-   if [ -f "$file"]; then
+   if [ -f "$file" ]; then
     echo "processing file: $file"
     sed -i.bak "s/${search_string}/${replace_string}/g" "$file"
    fi
