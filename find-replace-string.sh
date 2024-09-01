@@ -21,7 +21,7 @@ for file in "$directory"/*.txt;
  do
    if [ -f "$file" ]; then
     echo "processing file: $file"
-    sed -i.bak "s/${find_string}/${replace_string}/g" "$file"
+    sed -i.bak "s/${find_string}/${replace_string}/g" "$file"  # Use sed to replace the string and save changes in-place
    fi
 done
 echo "Replacement completed"
