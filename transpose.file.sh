@@ -43,6 +43,6 @@ END {
 }
 '  "$file"
 
- print "Columns to Rows: "  # original file 
+ "Columns to Rows: "  # original file 
   cat "$1" 
 
