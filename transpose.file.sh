@@ -31,7 +31,7 @@ awk '
     }
 }
 END {
-    # Print transposed data
+     print transposed data :   # Header for transposed data
     for (j=1; j<=max_fields; j++) {
         str = a[1, j]
         for (i=2; i<=NR; i++) {
@@ -40,6 +40,5 @@ END {
         print str
     }
 }
-' 
-echo "transpose file: " "$file"
+'  "$file"
 
